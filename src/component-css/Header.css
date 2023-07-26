@@ -1,0 +1,12 @@
+.heading, .heading-div p{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  margin-top: 50px;
+}
+
+.heading-div p{
+  margin-top: 20px;
+}

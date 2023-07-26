@@ -1,0 +1,41 @@
+.turns-main{
+  display:flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.playerInput, .numberInput, .enter-button, .newgame-button{
+  border: none;
+  background-color: white;
+  padding: 10px;
+  margin: 5px;
+  font-size: 20px;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+.playerInput:hover, .numberInput:hover, .enter-button:hover, .newgame-button:hover{
+  box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+}
+
+.enter-button, .newgame-button{
+  background-color: #435b98;
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.enter-button:hover, .newgame-button:hover{
+  background-color: #d04e73;
+}
+
+@media screen and (max-width: 683px){
+  .playerInput, .numberInput{
+    width: 150px;
+  }
+}
+
+
+@media screen and (max-width: 455px){
+  .playerInput, .numberInput{
+    width: 75px;
+  }
+}
